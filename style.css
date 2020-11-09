@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    flex-basis: 500px;
+
+}
+
+.header-name {
+    flex-grow: 3;
+    font-size: 3rem;
+}
+
+.header-nav {
+    flex-grow: 1;
+    border: solid 10px;
+    display: flex;    
+    align-content: center;
+    justify-content: center;
+}
+
+a {
+    flex-grow: inherit;
+    border: solid 5px;
+    text-align: center;
+    text-decoration: none;
+
+
+
+}
