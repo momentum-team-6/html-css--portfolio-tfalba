@@ -21,24 +21,23 @@ body {
 .header-name, .header-nav {
     align-items: center;
     height: 60px;
-/*     border: solid #660708 6px;
- */}
+}
 
 .header-nav, a {
     flex-grow: 1;
     flex-shrink: 1;
 }
+
 .header {
     flex-wrap: wrap;
     background-color: #161a1d;
-/*     height: 60px;
- */    margin: 15px 10px 15px 10px;
+    margin: 15px 10px 40px 10px;
 }
 
 .header-name {
-    flex-grow: 4;
-    flex-shrink: .5;
-    font-size: 2rem;
+    flex-grow: 2;
+    flex-shrink: 1;
+    font-size: 1.8rem;
     padding-left: 10px;
 }
 
@@ -51,50 +50,101 @@ a {
     justify-content: center;
     text-decoration: none;
     width: 100%;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 
 .main, .main-body, .headshot, .myphoto, .main-body h3, .main-body h4, .mainbody h2 {
-    border: solid 5px;
+    /* border: solid 5px; */
     display: flex;
 }
 
-.main-body h2 {
-    border: solid red 5px;
-}
 
 .main {
     display: flex;
     flex-wrap: wrap;
     flex-basis: 500px;
-    border: solid blue 5px;
-/*     justify-content: space-evenly;
- */}
+    /* border: solid blue 5px; */
+}
 
-.headshot {
+/* .headshot {
     display: flex;
     flex-wrap: wrap;
-    border: solid green 5px;
-    padding-left: 20px;
+    /* border: solid green 5px; */
+    /* padding-left: 20px;
     flex-grow: 0;
-}
+} */
 
 .main-body {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     flex-basis: 600px;
-    flex-grow: .5;
+    flex-grow: 1;
     padding-left: 20px;
     justify-content: unset;
     padding-right: 40px;
 }
 
-.main-body h2, .main-body h3, .main-body h4 {
-}
+
+
 .myphoto {
     display: flex;
     flex-wrap: wrap;
-    width: 300px;
+    width: 350px;
+    /* border: solid green 5px; */
+    padding-left: 20px;
+    flex-grow: 0;
 }
+
+.body-name {
+
+    /* border: solid red 5px; */
+    color:#660708;
+    font-size: 3rem;
+    }
+.title {
+    font-size: 1.6rem;
+    padding-bottom: 5px;
+
+}
+
+.main-body h4 {
+    font-size: 1.3rem;
+  
+}
+
+.prof-desc {
+    font-size: .9rem;
+}
+.project-photo {
+    width: 350px;
+    display: flex;
+}
+.main-portfolio {
+    padding-left: 20px;
+    padding-right: 40px;
+}
+.main-body-p {
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-basis: 600px;
+    flex-grow: 1;
+    
+    border: solid 5px black;
+}
+.portfolio-section {
+border: solid 5px green;
+display: flex;
+flex-grow: 1;
+}
+.project-desc {
+border: solid 5px red;
+}
+.project-body {
+    border: solid 5px blue;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
