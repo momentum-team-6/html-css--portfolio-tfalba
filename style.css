@@ -54,64 +54,37 @@ a {
 }
 
 
-.main, .main-body, .headshot, .myphoto, .main-body h3, .main-body h4, .mainbody h2 {
+.main, .main-body, .headshot, .main-body h3, .main-body h4, .mainbody h2 {
     /* border: solid 5px; */
     display: flex;
+    margin-bottom: 20px;
 }
 
+.myphoto {
+    width: 350px;
+}
 
 .main {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     flex-basis: 500px;
     /* border: solid blue 5px; */
 }
-
-/* .headshot {
-    display: flex;
-    flex-wrap: wrap;
-    /* border: solid green 5px; */
-    /* padding-left: 20px;
-    flex-grow: 0;
-} */
-
 .main-body {
-    display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    flex-basis: 600px;
-    flex-grow: 1;
-    padding-left: 20px;
-    justify-content: unset;
-    padding-right: 40px;
+    margin-left: 50px;
+    flex-basis: 300px;
 }
-
-
-
-.myphoto {
+.headshot {
     display: flex;
     flex-wrap: wrap;
-    width: 350px;
-    /* border: solid green 5px; */
-    padding-left: 20px;
+    border: solid black 7px;
+    margin-left: 20px;
     flex-grow: 0;
 }
-
-.body-name {
-
-    /* border: solid red 5px; */
-    color:#660708;
-    font-size: 3rem;
-    }
-.title {
-    font-size: 1.6rem;
-    padding-bottom: 5px;
-
-}
-
 .main-body h4 {
     font-size: 1.3rem;
-  
+
 }
 
 .prof-desc {
@@ -120,6 +93,7 @@ a {
 .project-photo {
     width: 350px;
     display: flex;
+    border: solid 7px black;
 }
 .main-portfolio {
     padding-left: 20px;
@@ -130,7 +104,7 @@ a {
     /* flex-wrap: wrap; */
     flex-basis: 600px;
     flex-grow: 1;
-    
+    margin-bottom: 30px;
     border: solid 5px black;
 }
 .portfolio-section {
